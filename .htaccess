@@ -1,0 +1,23 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+# exemple : action=tournament
+RewriteRule ^([a-zA-Z]+)$  index.php?action=$1 [L]
+
+# exemple : action=tournament&id=2
+RewriteRule ^([a-zA-Z]+)-([0-9]+)$  index.php?action=$1&id=$2 [L]
+
+# exemple : action=tournament&page=2
+RewriteRule ^([a-zA-Z]+)-p([0-9]+)$  index.php?action=$1&page=$2 [L]
+
+# exemple : action=signUp&error=errorName
+RewriteRule ^([a-zA-Z]+)-([a-zA-Z]+)$  index.php?action=$1&error=$2 [L]
+
+# exemple : action=userEvents&id=2&message=error
+RewriteRule ^([a-zA-Z]+)-([0-9]+)-([a-zA-Z]+)$  index.php?action=$1&id=$2&message=$3 [L]
+
+# exemple : action=signUp&error=errorName&id=2
+RewriteRule ^([a-zA-Z]+)-([a-zA-Z]+)-([0-9]+)$  index.php?action=$1&error=$2&id=$3 [L]
+
+# exemple : action=registration&type=commander&action2=tournament&id=2
+RewriteRule ^([a-zA-Z]+)-([a-zA-Z]+)-([a-zA-Z]+)-([0-9]+)$  index.php?action=$1&type=$2&action2=$3&id=$4 [L]

@@ -1,0 +1,327 @@
+#containerMyEvents
+{    
+    position: relative;
+    width: 600px;
+    height: 130px;
+    margin: auto;
+    margin-top: -100px;
+    min-width: 700px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    background-color: #9E9E9E;
+    text-align: center;
+}
+
+#containerMyEvents h1{
+    font-size: 30px;
+    text-align: left;
+    margin-left: 15px;
+    padding-top: 15px;
+    color: white;
+}
+
+.buttonEvents
+{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+    border-color: white;
+    color: #212121;
+    font-weight: bold;
+    width: 200px;
+    font-family: roboto bold;
+    font-size: 1.1em;
+    outline: none;
+    margin-left: 10px;
+}
+
+.buttonEvents:hover{
+    color: #FF9100;
+}
+
+#formCreateTournament{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+#firstColonFormEvent{
+    width: 230px;
+    margin-right: 20px;
+}
+
+table, th, td {
+    border: 1px solid grey;
+    text-align: center;
+}
+
+.titleTd{
+    width: 120px;
+    padding: 5px;
+}
+
+table input{
+    width: 120px;
+    height: 30px;
+    outline: none;
+}
+
+tr:nth-child(even) {background-color: #fde19a;}
+
+#firstColonFormEvent{
+    text-align: right
+}
+
+#priceActivity{
+    margin-top: 30px;
+}
+
+#firstColonFormEvent label{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#priceBefore, #priceIn{
+    width: 50px;
+}
+
+#addPng:hover{
+    cursor: pointer;
+}
+
+#addPng{
+    width: 30px;
+}
+
+#addAdresseDiv{
+    margin-bottom: 20px;
+    display: none;
+}
+
+#imgAddAdress{
+    width: 130px;
+    cursor: pointer;
+}
+
+#errorAddAdress
+{
+    color: red;
+}
+
+#addedAddAdress
+{
+    color: green;
+}
+
+#inputAddress, #inputCityForm{
+    margin-left: 10px;
+}
+
+#optionAdress{
+    display: flex;
+}
+
+#selectAdresse
+{
+    margin-top: 3px;
+    margin-left: 20px;
+}
+
+#inputCp, #cpAddAdress{
+    width: 60px;
+}
+
+#containerCreateEvent input{
+    padding: 2px;
+    padding-left: 3px;
+}
+
+#descMyEvent, #rewardsLeg{
+    margin-top: 30px;
+}
+
+#inputSendForm, #inputSendFormRegister{
+    padding: 5px;
+    border-radius: 5px;
+    float: right;
+    border-color: grey;
+    width: 100px;
+    margin-top: 30px;
+}
+
+#inputSendForm:hover, #inputSendFormRegister:hover{
+    color: #FF9100;
+    background-color: black;
+    border-color: black;
+}
+
+#optionFormat{
+    width: 150px;
+}
+
+#containerCreateEvent table th{
+    padding-left: 15px;
+}
+
+#divnewEvent legend
+{
+    border-bottom-color: rgb(255, 145, 0);
+}
+
+#divnewEvent, #diveventsFinished{
+    display: none;
+}
+
+/* ----------------- */
+/* Tournois en cours */
+/* ----------------- */
+
+#containerEventCreated, #containerEventFinished
+{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+#containerEventCreated table td, #containerEventCreated table th,
+#containerEventFinished table td, #containerEventFinished table th
+{
+    padding: 15px;
+    min-width: 130px;
+    text-align: center; 
+}
+
+#containerEventCreated table tr:hover,
+#containerEventFinished table tr:hover
+{
+    cursor: pointer;
+}
+
+
+/* --------------------------- */
+/* Affichage tournois en cours */
+/* --------------------------- */
+
+#contentTournamentDiv{
+    display: flex;
+    margin-top: 40px;
+}
+
+#tournamentDiv
+{
+    width: 50%;
+    margin:auto;
+    margin-top: -75px;
+    margin-bottom: 70px;
+}
+
+#tournamentDiv h1
+{
+    color: #FF9100;
+    text-shadow: 1px 1px black;
+}
+
+#firstBlockTournament
+{
+    width: 200px;
+    margin-right: 40px;
+}
+
+.littleText{
+    font-size: 10px;
+}
+
+#contentTournamentDiv h2{
+    font-size: 25px;
+}
+
+#rewardsBlock{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+#rewardsBlock div{
+    width: 350px;
+}
+
+#extrasBlock{
+    margin-top: 30px;
+}
+
+#inputSendFormRegister{
+    bottom: 50px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    width: 120px;
+    text-align: center;
+}
+
+#inputSendFormRegister:hover{
+    outline: none;
+}
+
+#tournamentDiv legend{
+    border-bottom-color: rgb(255, 145, 0);
+    width: 80%;
+}
+
+#errorMyEvent, #errorMyEventOk{
+    text-align: center;
+    font-weight: bold;
+    color: red;
+}
+
+#errorMyEventOk{
+    color: green;
+}
+
+#descMyEvent .tox .tox-statusbar{
+    display: none;
+}
+
+/* --------------------------- */
+/* Données Bancaires */
+/* --------------------------- */
+
+#containerBankDatas input{
+    outline: none;
+}
+
+#containerBankDatas, #containerBankDatas form{
+    display: flex;
+    flex-direction: column;
+}
+
+#containerBankDatas{
+    width: 400px;
+    margin: auto auto 50px;
+}
+
+#containerBankDatas h1{
+    color: #3e3e3e;
+}
+
+#containerBankDatas h2{
+    color: #585858;
+}
+
+#containerBankDatas h3{
+    color: #797979;
+}
+
+#containerBankDatas label{
+    color: #3e3e3e;
+    margin-top: 20px;
+}
+
+#containerBankDatas input[type="submit"]{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}

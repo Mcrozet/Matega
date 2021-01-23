@@ -1,0 +1,28 @@
+@page {
+    size: landscape;/* change the margins as you want them to be. */
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+td{
+    height: 30px;
+}
+
+#lastName{
+    width: 100px;
+}
+
+#firstName{
+    width: 100px;
+}
+
+#dci{
+    width: 110px;
+}

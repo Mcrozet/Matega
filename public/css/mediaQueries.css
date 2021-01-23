@@ -1,0 +1,198 @@
+
+/* ----------- IPHONE -------------- */
+
+@media (max-width: 400px){
+    #container{
+        min-width: 350px;
+        max-width: 350px;
+    }
+
+    #search{
+        height: 300px;
+    }
+
+    #buttons{
+        left: 0px;
+        margin-left: -5px;
+        width: 350px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .buttonSearch{
+        margin-top: 5px;
+    }
+
+    #title{
+        display: none;
+    }
+
+    #homeLink{
+        right: 270px;
+    }
+
+    #createTournamentLink{
+        right: 50px;
+    }
+
+    #inputCity{
+        margin-left: 4px;
+    }
+
+    #buttonSearchCity{
+        top: -90px;
+        right: 100px;
+    }
+
+    #rangeOut{
+        right: 100px;
+        top: -40px;
+    }
+
+    #inputRange{
+        top: -50px;
+        right: 80px;        
+    }
+
+    #CitiesList{
+        margin-left: 5px;
+    }
+
+    .buttonFormat{
+        margin-top: 10px;
+    }
+
+    #searchFormat{
+        margin-top: -90px;
+    }
+
+    .buttonDate{
+        position: absolute;
+        top: -37px;
+    }
+
+    #divStartingDate span{
+        position: absolute;
+        top: -30px;
+        left: -27px;
+    }
+
+    #divStartingDate{
+        position: absolute;
+        top: -50px;
+        margin-left: 50px;
+    }
+
+    #divEndDate{
+        position: absolute;
+        margin-left: 50px;
+    }
+
+    #spanDateTo{
+        position: absolute;
+        left: -27px;
+        top: -27px;
+    }
+
+    #buttonSearchDate{
+        right: 100px;
+        top: 10px;
+    }
+
+    .formatTournamentList{
+        left: 230px;
+    }
+
+    #inputName{
+        right: 5px;
+        top: -60px;
+    }
+
+    #buttonSearchName{
+        right: 105px;
+    }
+
+    .titleTournamentList{
+        width: 200px;
+    }
+
+    #pictureBackground{
+        width: 100%;
+    }
+
+    /* #descriptionDetail h1{
+        width: 300px;
+        height: 100px;
+    }
+
+    #dateDetail{
+        top: 160px;
+        left: 50px;
+    }
+
+    #firstContentDetail{
+        width: 300px;
+    }
+
+    #addressDetail{
+        margin-top: 20px;
+    }
+
+    #priceDetail{
+        position: absolute;
+        margin-top: 140px;
+        margin-left: -29px;
+    }
+
+    #timeDetail{
+        margin-top: 20px;
+    }
+
+    #contentDetail {
+        width: 300px;
+        margin-top: 80px;
+    }
+
+    #rewardsDetail{
+        margin-left: 0px;
+        width: 310px;        
+    }
+
+    #extraDetail{
+        margin-top: 30px;
+        position: relative;
+    }
+
+    #registerTournament {
+        position: absolute;
+        left: 250px
+    }
+
+    #registerDetail{
+        width: 300px;
+    }
+    
+    #registerDetail form{
+        width: 300px;
+    }
+
+    #registerDetail input{
+        width: 300px;
+        margin-top: 5px;
+    }
+
+    #commentDetail{
+        width: 300px;
+    }
+
+    #sendDetail{
+        position: absolute;
+        left: 30px;
+        bottom: 5px;
+    }
+
+    body{
+        width: 100%;
+    } */
+}
+
+
